@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Unit Test') {
           steps {
-            sh 'Second Test Execution'
+            sh 'echo \'Second Test Execution\''
           }
         }
       }
